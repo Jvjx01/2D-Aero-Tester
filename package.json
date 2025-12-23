@@ -1,0 +1,16 @@
+{
+    "name": "wind-tunnel-aero-tester",
+    "version": "1.0.0",
+    "description": "Wind Tunnel Aerodynamics Simulation",
+    "scripts": {
+        "install-client": "cd client && npm install",
+        "build": "cd client && npm run build",
+        "vercel-build": "npm run install-client && npm run build"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^5.2.1",
+        "mongoose": "^9.0.2"
+    }
+}

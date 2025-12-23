@@ -1,0 +1,2 @@
+# .vercelignore is deprecated when using project-level vercel.json
+# Vercel will automatically ignore files based on your configuration
