@@ -752,7 +752,6 @@ const SimulationCanvas = ({ params, onRun, onSave, currentResult, onAngleChange,
                             }
 
                             // No Red Flash - Fluid Look
-                            // p.heat = 0; 
                             p.collisionCooldown = 2;
                         }
                     }
